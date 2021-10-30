@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.backGround {
+  background: #bbbfca;
+  height: 100vh;
+  overflow: auto;
+}
+.backGround::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.backGround::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.backGround::-webkit-scrollbar-button:increment,
+.backGround::-webkit-scrollbar-button {
+  display: none;
+}
+
+.backGround::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.backGround::-webkit-scrollbar-thumb {
+  background-color: #e8e8e8;
+  border-radius: 20px;
+}
+
+.backGround::-webkit-scrollbar-track {
+  border-radius: 10px;
+}

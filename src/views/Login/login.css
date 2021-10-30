@@ -1,0 +1,93 @@
+.login {
+  background: #f4f4f2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-image: url("../../img/img1.JPG");
+  background-size: cover;
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 6px 4px #bbbfca;
+  -moz-box-shadow: 0 0 6px 4px #bbbfca;
+  box-shadow: 0 0 6px 4px #bbbfca;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img1 {
+  width: 50%;
+}
+.imgPro {
+  margin: 0 auto;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.partLogin {
+  background-color: white;
+  -webkit-box-shadow: 0 0 6px 4px #bbbfca;
+  -moz-box-shadow: 0 0 6px 4px #bbbfca;
+  box-shadow: 0 0 6px 4px #bbbfca;
+  width: 50%;
+  margin-right: 5%;
+  height: 70%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 2%;
+}
+.inputLogin {
+  margin: 3% 10%;
+  color: #495464;
+  padding-left: 5%;
+  background-color: #bbbfca;
+  border-radius: 20px;
+  border-style: none;
+  height: 30px;
+  width: 300px;
+}
+.btnLogin {
+  background-color: #495464;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+}
+.btnLiLog {
+  margin: 0 auto;
+}
+@media (max-width: 860px) {
+  .img1 {
+    display: none;
+  }
+  .card {
+    justify-content: center;
+  }
+  .inputLogin {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .partLogin {
+    background-color: white;
+    -webkit-box-shadow: 0 0 6px 4px #bbbfca;
+    -moz-box-shadow: 0 0 6px 4px #bbbfca;
+    box-shadow: 0 0 6px 4px #bbbfca;
+    width: 80%;
+    margin-right: 5%;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 2%;
+  }
+}
