@@ -28,7 +28,7 @@ const Login = (props) => {
                     <img className="imgPro" src="./profile.png" alt="" />
                     <input className="inputLogin" type="text" placeholder="usuario"/>
                     <input className="inputLogin" type="password" placeholder="password"/>
-                    <button className="btnLogin" onClick={login}>ingresar</button>
+                    <button className="btnLogin" onClick={login}>Ingresar</button>
                 </div>
             </div>
         </div>
